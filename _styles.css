@@ -19,7 +19,6 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-
   margin-right: 5%;
   margin-top: 4%;
   margin-bottom: 4%;
@@ -28,10 +27,10 @@ nav {
   border-radius: 5%;
 }
 
-#Box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#Box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #Title1 {
@@ -64,7 +63,7 @@ nav {
 
 #Title3 {
   font-size: 25px;
-  color: rgb(23, 23, 122);
+  color: #17177a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,9 +86,7 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
-  section {
-    div {
-      width: 100%;
-    }
+  section div {
+    width: 100%;
   }
 }
