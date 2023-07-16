@@ -6,9 +6,8 @@
 }
 
 a {
-
-    text-decoration: none;
-  }
+  text-decoration: none;
+}
 
 nav {
   width: 100%;
@@ -16,11 +15,13 @@ nav {
   background-color: white;
   display: flex;
   justify-content: space-between;
+  color: #394166;
 }
 
 #Login {
+  color: #394166;
   font-size: 30px;
-  border: solid navy 2px;
+  border: solid #394166 2px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,10 +34,9 @@ nav {
   border-radius: 5%;
 }
 
-
 #Title1 {
   font-size: 40px;
-  color: cornflowerblue;
+  color: #1ab9f1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,6 +49,7 @@ nav {
 }
 
 #Title2 {
+  font: arial;
   font-size: 40px;
   color: navy;
   display: flex;
@@ -64,6 +65,7 @@ nav {
 
 #Title3 {
   font-size: 25px;
+  font: arial;
   color: #394166;
   display: flex;
   justify-content: center;
@@ -77,18 +79,18 @@ nav {
 }
 
 #Title4 {
-    font-size: 40px;
-    color: #394166;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  font-size: 40px;
+  color: #394166;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 #Device {
   display: flex;
@@ -100,40 +102,55 @@ nav {
   height: 50rem;
 }
 
-
 #Button2 {
-    font-size: 30px;
-    color: white;
-    background-color: #394166;
-    border: solid #394166 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 70px;
-    border-radius: 5%;
-  }
-
-#low-effort{
-    font-size: 30px;
-    color: #394166;
-    display: flex;
-    justify-content: space-between;
-    height: 200px;
-    width: 88%;
-    margin-left: auto;
-    margin-right: auto;
+  font-size: 30px;
+  color: white;
+  background-color: #394166;
+  border: solid #394166 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  border-radius: 5%;
 }
 
-@media screen and (max-width: 768px){
-    section{
-        div{
-            width: 100%;
-        }
+#low-effort {
+  font-size: 30px;
+  color: #394166;
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  width: 100%;
+
+  div {
+    font-size: 30px;
+    width: 33%;
+    height: 80px;
+    display: flex;
+    background-color: #fffcdd;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #394166;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    div {
+      width: 100%;
     }
+  }
 }
