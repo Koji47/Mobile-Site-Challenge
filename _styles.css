@@ -57,7 +57,21 @@ nav {
 
 #Title3 {
   font-size: 25px;
-  color: #17177a;
+  color: #394166;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Title4 {
+  font-size: 30px;
+  color: #394166;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,6 +91,24 @@ nav {
 
 #deviceMockup {
   height: 50rem;
+}
+
+#Dadvice {
+  font-size: 30px;
+  color: white;
+  background-color: #394166;
+  border: solid #394166 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  border-radius: 5%;
 }
 
 @media screen and (max-width: 768px) {
